@@ -13,14 +13,16 @@ export default function Navbar() {
 
   return (
     <nav className="flex items-center justify-between py-6 px-8 md:px-12 xl:px-16 h-[80px] bg-[#0f0f0f] text-white relative z-50">
-      <span className="text-4xl font-bold italic">Vedete</span>
+      <span className="text-4xl font-bold italic cursor-pointer hover:text-blue-700 transition-colors duration-300 ease-in-out">
+        Vedete
+      </span>
 
       <div className="hidden md:flex items-center gap-6">
         {links.map((link) => (
           <a
             key={link.name}
             href={link.href}
-            className="text-lg hover:font-semibold transition-all duration-200"
+            className="text-lg hover:scale-106 hover:text-blue-300 transition-all duration-200"
           >
             {link.name}
           </a>
@@ -48,7 +50,7 @@ export default function Navbar() {
               key={link.name}
               href={link.href}
               onClick={() => setIsOpen(false)}
-              className="hover:font-semibold text-base"
+              className="hover:font-semibold hover:text-blue-300 text-base"
             >
               {link.name}
             </a>
