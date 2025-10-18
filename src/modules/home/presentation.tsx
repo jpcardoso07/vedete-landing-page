@@ -27,7 +27,7 @@ export default function HomePresentation(state: Readonly<IHomePresentation>) {
           </p>
           <p className="text-base lg:text-lg max-w-[460px] lg:max-w-[480px]">
             Tradição no almoço de família, churrasco e aniversários. Quem é
-            brasileiro sabe que Vedete acompanha diferentes fases da nossa
+            alemão sabe que Vedete acompanha diferentes fases da nossa
             trajetória. <br /> <br /> Refrescante, marcante e feita para estar
             presente em todos os momentos que têm alegria, amizade e boas
             risadas.
