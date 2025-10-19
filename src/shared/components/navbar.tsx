@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import LogoVedete from "../assets/logo-vedete.png";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,9 +14,10 @@ export default function Navbar() {
 
   return (
     <nav className="flex items-center justify-between py-6 px-8 md:px-12 xl:px-16 h-[80px] bg-[#0f0f0f] text-white relative z-50">
-      <span className="text-4xl font-bold italic cursor-pointer hover:text-blue-700 transition-colors duration-300 ease-in-out">
-        Vedete
-      </span>
+      <img
+        src={LogoVedete}
+        className="w-[120px] rounded-xl cursor-pointer mt-3"
+      />
 
       <div className="hidden md:flex items-center gap-6">
         {links.map((link) => (
