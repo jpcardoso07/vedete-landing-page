@@ -16,7 +16,7 @@ export default function Navbar() {
     <nav className="flex items-center justify-between py-6 px-8 md:px-12 xl:px-16 h-[80px] bg-[#0f0f0f] text-white relative z-50">
       <img
         src={LogoVedete}
-        className="w-[120px] rounded-xl cursor-pointer mt-3"
+        className="w-[120px] rounded-xl cursor-pointer mt-3 hover:scale-106 transition-all duration-300"
       />
 
       <div className="hidden md:flex items-center gap-6">
