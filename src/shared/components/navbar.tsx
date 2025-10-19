@@ -22,7 +22,7 @@ export default function Navbar() {
           <a
             key={link.name}
             href={link.href}
-            className="text-lg hover:scale-106 hover:text-blue-300 transition-all duration-200"
+            className="text-lg hover:scale-106 font-semibold hover:text-blue-600 transition-all duration-200"
           >
             {link.name}
           </a>
