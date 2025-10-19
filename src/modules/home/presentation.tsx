@@ -13,21 +13,21 @@ export default function HomePresentation(state: Readonly<IHomePresentation>) {
           <img
             src={Refri1}
             alt="Refri 1"
-            className="w-[50%] h-fit pt-[10%] transition-transform duration-500 ease-out hover:scale-110"
+            className="w-[47%] h-fit pt-[10%] transition-transform duration-500 ease-out hover:scale-110"
           />
           <img
             src={Refri2}
             alt="Refri 2"
-            className="w-[60%] transition-transform duration-500 ease-out hover:scale-110"
+            className="w-[63%] transition-transform duration-500 ease-out hover:scale-110"
           />
         </div>
         <div className="flex flex-col gap-8">
           <p className="text-5xl lg:text-6xl font-bold text-blue-700">
-            O Sabor do <br /> Brasileiro
+            O Sabor do <br /> Brasileiro.
           </p>
           <p className="text-base lg:text-lg max-w-[460px] lg:max-w-[480px]">
             Tradição no almoço de família, churrasco e aniversários. Quem é
-            alemão sabe que Vedete acompanha diferentes fases da nossa
+            paulista sabe que Vedete acompanha diferentes fases da nossa
             trajetória. <br /> <br /> Refrescante, marcante e feita para estar
             presente em todos os momentos que têm alegria, amizade e boas
             risadas.
