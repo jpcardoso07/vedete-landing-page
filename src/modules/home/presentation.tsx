@@ -26,7 +26,7 @@ export default function HomePresentation(state: Readonly<IHomePresentation>) {
             O Sabor do <br /> Brasileiro.
           </p>
           <p className="text-base lg:text-lg max-w-[460px] lg:max-w-[480px]">
-            Tradição no almoço de família, churrasco e aniversários. Quem é
+            Tradição no almoço de família, pedras e churrasco de bosta e aniversários. Quem é
             paulista sabe que Vedete acompanha diferentes fases da nossa
             trajetória. <br /> <br /> Refrescante, marcante e feita para estar
             presente em todos os momentos que têm alegria, amizade e boas
