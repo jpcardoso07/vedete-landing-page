@@ -13,12 +13,12 @@ export default function HomePresentation(state: Readonly<IHomePresentation>) {
           <img
             src={Refri1}
             alt="Refri 1"
-            className="w-[47%] h-fit pt-[10%] transition-transform duration-500 ease-out hover:scale-110"
+            className="w-[50%] h-fit pt-[10%] transition-transform duration-500 ease-out hover:scale-110"
           />
           <img
             src={Refri2}
             alt="Refri 2"
-            className="w-[63%] transition-transform duration-500 ease-out hover:scale-110"
+            className="w-[60%] transition-transform duration-500 ease-out hover:scale-110"
           />
         </div>
         <div className="flex flex-col gap-8">
