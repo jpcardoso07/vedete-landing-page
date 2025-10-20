@@ -54,7 +54,7 @@ export default function ProductsPage() {
           />
           <p className="text-2xl font-semibold">Vedete Limão</p>
           <p className="text-lg">
-            Refrescância garantida — o par ideal para um dia quente de verão.{" "}
+            Refrescância garantida — o par ideal para um dia quente de verão.
           </p>
         </div>
       </div>
