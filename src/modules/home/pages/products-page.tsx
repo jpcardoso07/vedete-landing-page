@@ -46,7 +46,7 @@ export default function ProductsPage() {
             Doce na medida certa e com aquele toque cítrico irresistível.
           </p>
         </div>
-        <div></div>
+        <div className="hidden lg:flex"></div>
         <div className="flex flex-col w-full max-w-[400px] gap-4">
           <img
             src={VedeteLimao}
