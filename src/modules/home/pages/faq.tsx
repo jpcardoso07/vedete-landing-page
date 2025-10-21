@@ -45,7 +45,7 @@ export default function Faq() {
   return (
     <div
       id="faq"
-      className="flex items-center gap-32 justify-center w-full py-16 px-8 md:px-12 xl:px-16 bg-[#0f0f0f] text-white"
+      className="flex flex-col md:flex-row items-center justify-between w-full gap-16 max-w-[1300px] self-center py-16 px-8 md:px-12 xl:px-16 bg-[#0f0f0f] text-white"
     >
       <div className="flex flex-col items-center">
         <p className="font-bold text-4xl text-blue-700">Dúvidas Frequentes</p>
@@ -64,7 +64,7 @@ export default function Faq() {
 
       <img
         src={VedetePiquinique}
-        className="w-[360px] rounded-xl hover:scale-104 transition-all duration-300"
+        className="w-[300px] lg:w-[360px] rounded-xl hover:scale-104 transition-all duration-300"
       />
     </div>
   );
