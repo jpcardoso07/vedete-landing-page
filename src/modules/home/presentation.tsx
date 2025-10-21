@@ -1,4 +1,5 @@
 import AboutUsPage from "./pages/about-us-page";
+import Faq from "./pages/faq";
 import HomePage from "./pages/home-page";
 import ProductsPage from "./pages/products-page";
 
@@ -8,6 +9,7 @@ export default function HomePresentation() {
       <HomePage />
       <ProductsPage />
       <AboutUsPage />
+      <Faq />
     </div>
   );
 }
