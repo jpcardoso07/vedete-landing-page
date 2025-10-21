@@ -3,7 +3,10 @@ import DonoVedete from "../../../shared/assets/dono-vedete.jpg";
 
 export default function AboutUsPage() {
   return (
-    <div className="flex flex-col items-center justify-center w-full py-16 px-8 md:px-12 xl:px-16 bg-[#0f0f0f] text-white">
+    <div
+      id="sobre"
+      className="flex flex-col items-center justify-center w-full py-16 px-8 md:px-12 xl:px-16 bg-[#0f0f0f] text-white"
+    >
       <div className="flex flex-col gap-4 text-center">
         <p className="font-bold text-4xl text-blue-700">Sobre Nós</p>
         <p className="text-xl">Descubra um pouco mais sobre nossa história</p>

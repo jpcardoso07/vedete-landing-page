@@ -6,10 +6,11 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const links = [
-    { name: "Produtos", href: "" },
-    { name: "Sobre nós", href: "" },
-    { name: "FAQ", href: "" },
-    { name: "Contato", href: "" },
+    { name: "Home", href: "#home" },
+    { name: "Produtos", href: "#produtos" },
+    { name: "Sobre nós", href: "#sobre" },
+    { name: "FAQ", href: "#faq" },
+    { name: "Contato", href: "#contato" },
   ];
 
   return (

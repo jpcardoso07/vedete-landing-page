@@ -3,7 +3,10 @@ import Refri2 from "../../../shared/assets/lata-vedete.png";
 
 export default function HomePage() {
   return (
-    <div className="flex flex-col items-center justify-center lg:h-screen w-full py-16 px-8 md:px-12 xl:px-16 bg-[#0f0f0f] text-white lg:mt-[-80px]">
+    <div
+      id="home"
+      className="flex flex-col items-center justify-center lg:h-screen w-full py-16 px-8 md:px-12 xl:px-16 bg-[#0f0f0f] text-white lg:mt-[-80px]"
+    >
       <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-12 w-full max-w-[1300px]">
         <div
           id="carousel"
