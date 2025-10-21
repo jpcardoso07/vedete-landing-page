@@ -29,10 +29,10 @@ export default function AboutUsPage() {
             </li>
           </ul>
         </div>
-        <img src={FabricaVedete} className="rounded-xl" />
+        <img src={FabricaVedete} className="rounded-xl hover:scale-104 transition-all duration-300" />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-20 w-full max-w-[1300px] mt-20">
-        <img src={DonoVedete} className="rounded-xl" />
+        <img src={DonoVedete} className="rounded-xl hover:scale-104 transition-all duration-300" />
         <div className="pb-12">
           <p className="text-xl mb-4">
             Desde 1984, a Vedete faz parte da mesa dos brasileiros. Nascida em
