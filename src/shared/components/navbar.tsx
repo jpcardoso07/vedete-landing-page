@@ -52,7 +52,7 @@ export default function Navbar() {
               key={link.name}
               href={link.href}
               onClick={() => setIsOpen(false)}
-              className="font-semibold hover:text-blue-600 text-base"
+              className="font-semibold hover:text-blue-600 transition-colors text-base"
             >
               {link.name}
             </a>
