@@ -62,7 +62,10 @@ export default function Faq() {
         </div>
       </div>
 
-      <img src={VedetePiquinique} className="w-[360px] rounded-xl hover:scale-104 transition-all duration-300" />
+      <img
+        src={VedetePiquinique}
+        className="w-[360px] rounded-xl hover:scale-104 transition-all duration-300"
+      />
     </div>
   );
 }
