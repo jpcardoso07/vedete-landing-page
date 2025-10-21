@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 
 export default function CommonLayout() {
   return (
-    <div className="flex flex-col h-screen w-screen">
+    <div className="flex flex-col h-screen w-screen bg-[#0f0f0f] overflow-hidden">
       <Navbar />
 
       <main

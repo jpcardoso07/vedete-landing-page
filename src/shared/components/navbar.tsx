@@ -1,3 +1,65 @@
+import { useState } from "react";
+import { Menu, X } from "lucide-react";
+import LogoVedete from "../assets/logo-vedete.png";
+
 export default function Navbar() {
-  return <div></div>;
+  const [isOpen, setIsOpen] = useState(false);
+
+  const links = [
+    { name: "Home", href: "#home" },
+    { name: "Produtos", href: "#produtos" },
+    { name: "Sobre nós", href: "#sobre" },
+    { name: "FAQ", href: "#faq" },
+    { name: "Contato", href: "#contato" },
+  ];
+
+  return (
+    <nav className="flex items-center justify-between py-6 px-8 md:px-12 xl:px-16 h-[90px] bg-[#0f0f0f] text-white relative z-50">
+      <img
+        src={LogoVedete}
+        className="w-[100px] lg:w-[120px] rounded-xl cursor-pointer lg:mt-3 hover:scale-106 transition-all duration-300"
+      />
+
+      <div className="hidden md:flex items-center gap-8 xl:gap-12">
+        {links.map((link) => (
+          <a
+            key={link.name}
+            href={link.href}
+            className="text-lg xl:text-xl hover:scale-106 font-semibold hover:text-blue-600 transition-all duration-200"
+          >
+            {link.name}
+          </a>
+        ))}
+      </div>
+
+      <button
+        className="md:hidden focus:outline-none cursor-pointer"
+        onClick={() => setIsOpen(true)}
+      >
+        <Menu size={30} />
+      </button>
+
+      {isOpen && (
+        <div className="fixed bg-black top-0 right-0 flex flex-col items-start justify-center pb-6 pl-6 pt-10 pr-20 space-y-3 rounded-bl-2xl w-[180px]">
+          <button
+            className="absolute top-6 right-8 text-white cursor-pointer"
+            onClick={() => setIsOpen(false)}
+          >
+            <X size={30} />
+          </button>
+
+          {links.map((link) => (
+            <a
+              key={link.name}
+              href={link.href}
+              onClick={() => setIsOpen(false)}
+              className="font-semibold hover:text-blue-600 transition-colors text-base"
+            >
+              {link.name}
+            </a>
+          ))}
+        </div>
+      )}
+    </nav>
+  );
 }
